@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #1d2338;
-  --color-secondary: #5e7bff;
+  --color-secondary: #0d0b6b;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -436,13 +436,47 @@ section {
     }
   }
 }
-
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
 }
+//Contact section
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
+  .left-contact {
+    flex: 2;
+  }
+  .right-contact {
+    flex: 3;
+    margin-left: 3rem;
+    .input-control {
+      margin: 1.5rem 0;
+      input,
+      textarea {
+        border-radius: 30px;
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        padding: 0.8rem 1.1rem;
+        outline: none;
+        border: none;
+        background-color: var(--color-grey-5);
+        width: 100%;
+        color: var(--color-white);
+        resize: none;
+      }
+    }
+    .i-c-2 {
+      display: flex;
+      :last-child {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
 
-/*Independend components*/
+/*Independent components*/
 .btn-con {
   display: flex;
   align-self: flex-start;
