@@ -5,8 +5,8 @@ import emailjs from "@emailjs/browser";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-contnet: center;
-  position: rlative;
+  justify-content: center;
+  position: relative;
   z-index: 1;
   align-items: center;
 `;
@@ -45,7 +45,7 @@ const Desc = styled.div`
   }
 `;
 
-const ContactForm = styled.div`
+const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
   display: flex;
@@ -108,6 +108,13 @@ const Contact = () => {
   const form = useRef();
   const handelSubmit = (e) => {
     e.preventDefault();
+    
+    const timeInput = document.createElement('input');
+    timeInput.type = 'hidden';
+    timeInput.name = 'time';
+    timeInput.value = new Date().toLocaleString();
+    form.current.appendChild(timeInput);
+
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -119,9 +126,13 @@ const Contact = () => {
         (result) => {
           alert("Message Sent");
           form.current.reset();
+          form.current.removeChild(timeInput);
         },
         (error) => {
           alert(error);
+          if (form.current.contains(timeInput)) {
+            form.current.removeChild(timeInput);
+          }
         }
       );
   };
@@ -136,12 +147,30 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm ref={form} onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInput 
+            placeholder="Your Email" 
+            name="reply_to" 
+            type="email" 
+            required 
+          />
+          <ContactInput 
+            placeholder="Your Name" 
+            name="from_name" 
+            required 
+          />
+          <ContactInput 
+            placeholder="Subject" 
+            name="subject" 
+            required 
+          />
+          <ContactInputMessage 
+            placeholder="Message" 
+            name="message" 
+            rows={4} 
+            required 
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
