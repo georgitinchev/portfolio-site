@@ -327,90 +327,100 @@ export const projects = [
     title: "Flask API CRUD",
     date: "2024",
     description:
-      "A Python Flask REST API project integrated with SQLAlchemy, demonstrating how to build a fully functional REST API with CRUD operations and database management.",
+      "Python Flask REST API with SQLAlchemy. Features CRUD operations and database management.",
     tags: ["Python", "Flask", "SQLAlchemy", "REST API"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/flask-api-crud"
+    github: "https://github.com/georgitinchev/flask-api-crud",
+    image: "https://miro.medium.com/v2/resize:fit:1017/1*Yb2ueMmE-x-MGiWW_F4vGw.png"
   },
   {
     id: 1,
     title: "HashiCorp Vault Lab",
     date: "2024",
     description:
-      "A lab environment for experimenting with HashiCorp Vault to manage secrets and access control. Contains setup and configuration examples.",
+      "Lab environment for HashiCorp Vault. Includes secrets management and access control setup.",
     tags: ["Vault", "DevOps", "Secrets Management"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/hc-vault-lab"
+    github: "https://github.com/georgitinchev/hc-vault-lab",
+    image: "https://miro.medium.com/v2/resize:fit:899/0*B7_Zxv7v_ysoZbLT.png"
   },
   {
     id: 2,
     title: "GitHub CI/CD Deployment Workflow",
     date: "2024",
     description:
-      "A simple GitHub Actions workflow for CI/CD: builds Java Gradle projects, pushes Docker images, and optionally deploys to GitHub Pages.",
+      "GitHub Actions workflow for CI/CD: builds Gradle projects and deploys Docker images.",
     tags: ["GitHub Actions", "CI/CD", "Docker", "Gradle"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/gh-deployment-workflow"
+    github: "https://github.com/georgitinchev/gh-deployment-workflow",
+    image: "https://framerusercontent.com/images/DpFlQxGUeuFQ4c035JgoDfQos.jpg"
   },
   {
     id: 3,
     title: "Docker Demo - Node.js User Profile App",
     date: "2024",
     description:
-      "A Node.js backend with Express, MongoDB, and a pure JavaScript frontend, all Dockerized for demonstration and testing.",
+      "Dockerized Node.js app with Express and MongoDB. Includes JavaScript frontend demo.",
     tags: ["Docker", "Node.js", "MongoDB", "JavaScript"],
     category: "Web App",
-    github: "https://github.com/georgitinchev/docker-demo"
+    github: "https://github.com/georgitinchev/docker-demo",
+    image: "https://www.docker.com/app/uploads/2020/09/node-docker-logo.png"
   },
   {
     id: 4,
     title: "Jenkins CI/CD Pipelines",
     date: "2024",
     description:
-      "Jenkins pipeline workflows for CI/CD automation. Includes both declarative and scripted pipelines.",
+      "Jenkins pipeline workflows for CI/CD automation with declarative and scripted pipelines.",
     tags: ["Jenkins", "CI/CD", "DevOps"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/jenkins-wf"
+    github: "https://github.com/georgitinchev/jenkins-wf",
+    image: "https://iamops.io/wp-content/uploads/2024/07/Jenkins-1024x536-1.png"
   },
   {
     id: 5,
     title: "Bash Script Exercises",
     date: "2024",
     description:
-      "A collection of Bash scripts and exercises to master Linux shell scripting. Includes examples from basic to advanced tasks.",
+      "Collection of Bash scripts covering basic to advanced Linux shell scripting tasks.",
     tags: ["Bash", "Linux", "Scripting"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/bash-script-exercises"
+    github: "https://github.com/georgitinchev/bash-script-exercises",
+    image: "https://appdeskservices.com/wp-content/uploads/2023/09/image.png"
   },
   {
     id: 6,
     title: "Log Archive Tool",
     date: "2024",
     description:
-      "A simple CLI tool to compress and archive logs from a specified directory. Useful for organizing and managing log files.",
+      "CLI tool for compressing and archiving logs. Helps with log organization and management.",
     tags: ["Bash", "Linux", "Logging"],
     category: "DevOps",
-    github: "https://github.com/georgitinchev/log-archive-tool"
+    github: "https://github.com/georgitinchev/log-archive-tool",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Linux-Bash-Script.png"
   },
   {
     id: 7,
     title: "Car Rental Web App",
     date: "2024",
     description:
-      "A PHP-based car rental management application with MySQL. Features include browsing, booking, and admin control over listings.",
+      "PHP-based car rental system with MySQL. Features browsing, booking, and admin panel.",
     tags: ["PHP", "MySQL", "Web App"],
     category: "Web App",
-    github: "https://github.com/georgitinchev/car-rental-php"
+    github: "https://github.com/georgitinchev/car-rental-php",
+    image: "https://github.com/georgitinchev/car-rental-php/raw/main/car-rental1.gif"
   },
   {
     id: 8,
     title: "Media Bazaar Logistics System",
     date: "2023",
     description:
-      "Led a team to develop a logistics system with C# .NET. Features role-based management, stock tracking, task allocation, and analytics.",
+      "C# .NET logistics system with role-based access, stock tracking, and task management.",
     tags: ["C#", ".NET", "Team Project", "Logistics"],
     category: "Desktop App",
     github: "https://github.com/georgitinchev/clubhouse-logistics-management",
+    image: "https://github.com/georgitinchev/clubhouse-logistics-management/raw/main/img/demo_desktop.gif",
+    webImage: "https://github.com/georgitinchev/clubhouse-logistics-management/raw/main/img/demo_web.gif",
     member: [
       {
         name: "Boris Petrov",
@@ -423,40 +433,127 @@ export const projects = [
     title: "JavaScript Mini Projects",
     date: "2023",
     description:
-      "A collection of JavaScript projects including calculator, clock, compass, grocery list, phonebook, pong game, and weather app.",
+      "Collection of JavaScript projects: calculator, clock, compass, grocery list, and more.",
     tags: ["JavaScript", "API", "UI"],
     category: "Web App",
-    github: "https://github.com/georgitinchev/js-projects"
+    github: "https://github.com/georgitinchev/js-projects",
+    image: "https://www.crio.do/blog/content/images/2021/06/Javascript-projects-for-beginners-1.png"
   },
   {
     id: 10,
     title: "StreamSage – Movie Streaming App",
     date: "2023",
     description:
-      "Movie streaming platform built with C# .NET and .NET Core. Features movie recommendations, watchlists, and Razor Pages UI.",
+      "C# .NET movie platform with recommendations and watchlists. Available for web and desktop.",
     tags: ["C#", ".NET Core", "SQL Server", "Razor Pages"],
     category: "Desktop App",
-    github: "https://github.com/georgitinchev/streamsage-streamingservice"
+    github: "https://github.com/georgitinchev/streamsage-streamingservice",
+    image: "https://github.com/georgitinchev/streamsage-streamingservice/raw/main/IMG%20Assets/demo_desktop.gif",
+    webImage: "https://github.com/georgitinchev/streamsage-streamingservice/raw/main/IMG%20Assets/demo_web.gif"
   },
   {
     id: 11,
     title: "Library Management App",
     date: "2023",
     description:
-      "A C# WinForms application for managing a small library. Supports book search, member management, and JSON data export/import.",
+      "C# WinForms app for library management. Features book search and member management.",
     tags: ["C#", "WinForms", "JSON"],
     category: "Desktop App",
-    github: "https://github.com/georgitinchev/library-individual-project"
+    github: "https://github.com/georgitinchev/library-individual-project",
+    image: "https://github.com/georgitinchev/library-individual-project/raw/main/images/library_app2.png"
+  }
+];
+
+export const certificates = [
+  {
+    id: 0,
+    img: "https://static-00.iconduck.com/assets.00/azure-icon-2048x2048-6tt08spf.png",
+    title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    issuer: "Microsoft",
+    date: "2024",
+    desc: "Entry-level certification demonstrating foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+    credentialId: "212e1c58fda0bd9b",
+    credentialUrl: "https://learn.microsoft.com/en-us/users/georgitinchevoriginal/credentials/212e1c58fda0bd9b"
   },
   {
-    id: 12,
-    title: "Server Performance Stats Script",
+    id: 1,
+    img: "https://miro.medium.com/v2/resize:fit:700/1*gIJREaABfOFFShHTx5NtUg.png",
+    title: "Introduction to DevOps",
+    issuer: "Codecademy",
     date: "2024",
-    description:
-      "A Bash script to display key server performance metrics: CPU, memory, disk, and top processes. Ideal for quick health checks.",
-    tags: ["Bash", "Linux", "Monitoring"],
-    category: "DevOps",
-    github: "https://github.com/georgitinchev/server-performance-stats"
+    desc: "Comprehensive introduction to DevOps practices, tools, and methodologies for modern software development.",
+    credentialId: "735b5f3bb39d4b8bbe48ac00de0e7222",
+    credentialUrl: "https://www.codecademy.com/profiles/goti1031/certificates/735b5f3bb39d4b8bbe48ac00de0e7222"
+  },
+  {
+    id: 2,
+    img: "https://miro.medium.com/v2/resize:fit:700/1*gIJREaABfOFFShHTx5NtUg.png",
+    title: "Learn Bash Scripting",
+    issuer: "Codecademy",
+    date: "2024",
+    desc: "Mastered shell scripting fundamentals, automation, and command-line tools for efficient system administration.",
+    credentialId: "37c55263a9f1b1f7603f7551c293ecbd",
+    credentialUrl: "https://www.codecademy.com/profiles/goti1031/certificates/37c55263a9f1b1f7603f7551c293ecbd"
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdHVQmS_j5EnS20QAwcCz9J0rHoFz_oQgUdQ&s",
+    title: "JavaScript Advanced",
+    issuer: "Software University (SoftUni)",
+    date: "2022",
+    desc: "Advanced JavaScript programming concepts including DOM manipulation, functions, objects, and algorithms.",
+    credentialId: "141183/8c0e3d21",
+    credentialUrl: "https://softuni.bg/certificates/details/141183/8c0e3d21"
+  },
+  {
+    id: 4,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdHVQmS_j5EnS20QAwcCz9J0rHoFz_oQgUdQ&s",
+    title: "JavaScript Fundamentals",
+    issuer: "Software University (SoftUni)",
+    date: "2022",
+    desc: "Core JavaScript programming fundamentals including syntax, data types, control structures, and basic algorithms.",
+    credentialId: "129351/a4f7b1ba",
+    credentialUrl: "https://softuni.bg/certificates/details/129351/a4f7b1ba"
+  },
+  {
+    id: 5,
+    img: "https://w7.pngwing.com/pngs/13/317/png-transparent-udemy-round-logo-tech-companies.png",
+    title: "Microsoft Intune: Enterprise Device Management",
+    issuer: "Udemy",
+    date: "2023",
+    desc: "Comprehensive training on Microsoft Intune for enterprise device management, security, and compliance.",
+    credentialId: "UC-e0031de5-1950-4549-8477-34d9be48630b",
+    credentialUrl: "https://www.udemy.com/certificate/UC-e0031de5-1950-4549-8477-34d9be48630b/"
+  },
+  {
+    id: 6,
+    img: "https://lens-storage.storage.googleapis.com/png/61e7ccf904bb4429b4cf2c57671c6f6d",
+    title: "Propaedeutics Diploma in ICT & Software Engineering",
+    issuer: "Fontys University of Applied Sciences",
+    date: "2024",
+    desc: "Completed the first year (propaedeutics) in ICT & Software Engineering, demonstrating foundational knowledge in software development and IT.",
+    credentialId: "HBO-P",
+    credentialUrl: "https://www.linkedin.com/in/georgi-tinchev-903446215/overlay/1732553105820/single-media-viewer/"
+  },
+  {
+    id: 7,
+    img: "https://www.gartner.com/pi/vendorimages/cloud-academy_1701339425371.jpg",
+    title: "AAD Account Management - Specialist (L200) Assessment",
+    issuer: "Cloud Academy",
+    date: "2023",
+    desc: "Specialist-level assessment demonstrating expertise in Azure Active Directory account management and administration.",
+    credentialId: "39fc003dc792f93dd09397996cbd919f34307d90",
+    credentialUrl: "https://certificates.platform.qa.com/39fc003dc792f93dd09397996cbd919f34307d90.pdf"
+  },
+  {
+    id: 8,
+    img: "https://w7.pngwing.com/pngs/13/317/png-transparent-udemy-round-logo-tech-companies.png",
+    title: "DevOps CI/CD for Beginners",
+    issuer: "Udemy",
+    date: "2024",
+    desc: "Comprehensive introduction to Continuous Integration and Continuous Deployment practices, tools, and methodologies in DevOps.",
+    credentialId: "UC-b825733c-d31f-4965-b04e-44d3621824b1",
+    credentialUrl: "https://www.udemy.com/certificate/UC-b825733c-d31f-4965-b04e-44d3621824b1/"
   }
 ];
 
