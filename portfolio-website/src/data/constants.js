@@ -7,11 +7,11 @@ export const Bio = {
     "IT Support Specialist",
   ],
   description:
-  "I'm an aspiring DevOps and Cloud Engineer from Sofia, Bulgaria. I’m passionate about optimizing infrastructure, automating workflows, and ensuring scalability using cloud platforms like AWS and Azure. I’m focused on building efficient, high-performance systems and enjoy exploring 3D design and music production in my free time.",
+  "I'm an aspiring DevOps and Cloud Engineer from Sofia, Bulgaria. I'm passionate about optimizing infrastructure, automating workflows, and ensuring scalability using cloud platforms like AWS and Azure. I'm focused on building efficient, high-performance systems and enjoy exploring 3D design and music production in my free time.",
   github: "https://github.com/georgitinchev",
   resume: "https://drive.google.com/file/d/1opGQGy7nigej6707tYekTGXnhKLwKINv/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/georgi-tinchev-903446215/",
-  twitter: "https://twitter.com/georgi_tin",
+  twitter: "https://x.com/georgi90078",
   insta: "https://www.instagram.com/georgi.tin/",
   facebook: "https://www.facebook.com/georgi.ti/",
   artstation: "https://www.artstation.com/echo_winter",
